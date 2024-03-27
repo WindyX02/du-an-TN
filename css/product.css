@@ -1,0 +1,76 @@
+.product{
+    width: 1445px;
+  
+}
+.list-product1
+{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+   
+
+}
+.list-product2
+{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+}
+.book
+{
+    width: 240px;
+    height: 250px;
+}
+.list-children h2
+{
+    margin-top: 10px;
+}
+.list-book
+{
+    margin-top: 10px;
+}
+.name-product
+{
+    margin-top: 5px;
+    font-weight:bold;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.name-product span{
+    height: 55px;
+    text-align: center;
+}
+.price {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.price span
+{
+    color: red;
+    font-weight: 500;
+}
+.buy
+{
+    height: 40px;
+    background-color: green;
+    border-radius: 45%;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.buy a
+{
+    height: 20px;
+    width: 40px;
+    text-decoration: none;
+    color: white;  	
+}
+
